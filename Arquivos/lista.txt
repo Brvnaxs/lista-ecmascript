@@ -1,0 +1,43 @@
+1. Importe e imprima todos os dados contidos nos dois aquivos: cursos.js e
+alunos.js usando o for tradicional
+2. Use o foreach para percorrer os dois arrays e imprimir os dados contidos nos dois
+arquivos.
+3. Usando desestruturação, imprimia com uma mensagem amistosa, os dados
+contidos no arquivo alunos.js. Ex.: "O aluno de id {id} é do curso {curso} ingressou
+na universidade no semestre letivo de {entrada} e atualmente está {status}".
+4. Usando desestruturação faça o mesmo para o arquivo cursos.js
+5. Usado o método map, crie um novo array de cursos em que o nome dos cursos
+estejam todos em letra minúscula. o método string.toLowerCase() realiza a
+conversão de maiúsculo e minúsculo. Além disso, é preciso criar um novo JSON a
+partir do existente para que a função atue corretamente.
+6. Usando o mesmo raciocínio anterior, altere o tempo de duração da seguinte forma:
+cursos com 8 semestres ou menos, deverão ter duração 1, com mais de 8
+semestres, duração 2. Os que tiverem 0, devem permanecer.
+7. Utilizando o reduce, contabilize o somatório do tempo de duração de todos os
+cursos.
+8. Usando o filter, verifique quantos alunos estão cursando 'LICENCIATURA EM
+CIÊNCIAS BIOLÓGICAS'
+9. Verifique quantos alunos estão com o curso trancado.
+10.Verifique quantos alunos estão MATRICULADOS no curso de 'MEDICINA
+VETERINÁRIA'
+
+11.Verifique quantos alunos ingressaram na universidade em 2018.1 e estão
+devidamente matriculados.
+12.Verifique qual o percentual de alunos matriculados em relação ao total de alunos.
+13.Verifique o percentual de estudantes desistentes em relação ao total de alunos.
+14.Verifique quantos estudantes ingressaram em 2019.1 e estão trancados.
+15.DESAFIO.
+Um importante conceito para a comunidade acadêmica é o conceito de
+RETENÇÃO. Um estudante está nessa condição quando ele já está na universidade
+por um tempo superior ao tempo de duração regular de seu curso. Por exemplo, se
+um curso X possui 10 semestres de duração, o discente entrou na universidade a
+mais de 10 semestres, esse discente se encontra em retenção. Além disso,
+somente podemos considerar que um estudante está retido, caso ele esteja
+matriculado ou trancado, estudantes que em qualquer outro status não podem ser
+contabilizados para o cálculo de retenção. Para saber se o estudante está retido,
+você deve considerar como semestre atual o ano de 2019.2. Assim, a partir da data
+de ingresso do estudante, você deve calcular quantos semestres ele já cursou e se
+essa quantidade é superior ao prazo regular do curso que ele está matriculado. Ao
+final você deve imprimir a seguinte mensagem para cada aluno retido: "O estudante
+de id {id}, matriculado no curso {curso}, ingressou na universidade em {entrada} e
+em relação ao semestre letivo de 2019.2 encontra-se na situação de retenção"
